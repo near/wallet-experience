@@ -1,9 +1,10 @@
 ---
 name: Feature Request
 about: Suggest an idea for this project
-title: "feat: "
-labels: "enhancement"
-assignees: ""
+title: "[FEATREQ] "
+labels: Emerging Tech, enhancement, Near BOS
+assignees: ''
+
 ---
 
 # Feature Request
