@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-template-frontend",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
+    "postinstall": "cd frontend && npm install",
+    "lint": "cd frontend && npm run lint",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  },
+  "lint-staged": {
+    "*/.{js,jsx,ts,tsx,css}": "prettier --write ."
+  }
+}
